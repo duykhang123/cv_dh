@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Filson Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Regular'), url('FilsonProRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Regular Italic'), url('FilsonProRegularItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Thin'), url('FilsonProThin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Thin Italic'), url('FilsonProThinItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Light'), url('FilsonProLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Light Italic'), url('FilsonProLightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Book'), url('FilsonProBook.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Book Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Book Italic'), url('FilsonProBookItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Medium'), url('FilsonProMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Medium Italic'), url('FilsonProMediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Bold'), url('FilsonProBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Bold Italic'), url('FilsonProBoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Heavy'), url('FilsonProHeavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Heavy Italic'), url('FilsonProHeavyItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Black'), url('FilsonProBlack.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Pro Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Black Italic'), url('FilsonProBlackItalic.woff') format('woff');
+}

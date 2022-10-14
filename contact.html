@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./assets/css/all-style.css">
+    <title>FD</title>
+</head>
+
+<body>
+<header class="header" id="header">
+    <div class="header-inner">
+        <div class="header-top hidden-md">
+            <div class="container">
+                <ul class="languages-list">
+                    <li>
+                        <a class="language-active" href="">
+                            <img src="./assets/images/icon-vn.svg" alt="">
+                            <span>Tiếng Việt</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-eng.svg" alt="">
+                            <span>English</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-jp.svg" alt="">
+                            <span>日本語</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-kr.svg" alt="">
+                            <span>한국어</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-de.svg" alt="">
+                            <span>Deutsch</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-lg hidden-md">
+                <div class="container">
+                    <a class="navbar-brand logo-header" href="index.php">
+                        <img src="./assets/images/Logo_Dh_Foods.png" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-nav-main ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.php">Trang chủ</a>
+                            </li>
+                            <li class="nav-item has-children">
+                                <a class="nav-link" href="about.php">Về DH Food</a>
+                                <ul class="sub-menu">
+                                    <li><a href="introduce.php">Câu Chuyện Thương Hiệu</a></li>
+                                    <li><a href="promise.php">Lời hứa của chúng tôi</a></li>
+                                    <li><a href="purchase.php">Tôi Muốn Mua Hàng</a></li>
+                                    <li><a href="jobs.php">Tuyển Dụng</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item has-children">
+                                <a class="nav-link" href="products.php">Sản phẩm</a>
+                                <ul class="sub-menu">
+                                    <li><a href="products-list.php">Sản phẩm 01</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 02</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 03</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 04</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 05</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 06</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 07</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 08</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 09</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jobs.php" aria-disabled="true">Món Ngon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jobs.php" aria-disabled="true">Khám phá gia vị</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.php" aria-disabled="true">Tin tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.php" aria-disabled="true">Liên Hệ</a>
+                            </li>
+                            <form class="form-search-header">
+                                <div class="dropdown dropdown-search">
+                                    <button id="dropdownSearch" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-search"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownSearch">
+                                        <div class="box-search-normal">
+                                            <input class="search-input" placeholder="Nhập nội dung tìm kiếm">
+                                            <button class="search-btn me-2" type="submit">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-mobile show-md">
+                <div class="container">
+                    <a class="navbar-brand logo-header" href="#">
+                        <img src="./assets/images/Logo_Dh_Foods.png" alt="">
+                    </a>
+                    <ul class="languages-list ms-auto">
+                        <li>
+                            <a class="language-active" href="">
+                                <img src="./assets/images/icon-vn.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-eng.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-jp.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-kr.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-de.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler navbar-toggler-main" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                    <span class="navbar-toggler-icon"></span>
+                    Menu
+                </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="offcanvas offcanvas-end offcanvas-menu show-md" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+    <button class="offcanvas-close btn-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="fa fa-times"></i>
+    </button>
+    <ul class="navbar-nav navbar-nav-mobile js-nav-accordion">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Trang chủ</a>
+        </li>
+        <li class="nav-item nav-has-children">
+            <a class="nav-link" href="about.php">Về Dh Foods
+                <div class="nav-link-toggle">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </a>
+
+            <ul class="sub-menu">
+                <li><a href="introduce.php">Câu Chuyện Thương Hiệu</a></li>
+                <li><a href="promise.php">Lời hứa của chúng tôi</a></li>
+                <li><a href="purchase.php">Tôi Muốn Mua Hàng</a></li>
+                <li><a href="jobs.php">Tuyển Dụng</a></li>
+            </ul>
+        </li>
+        <li class="nav-item nav-has-children">
+            <a class="nav-link" href="products.php">Sản phẩm
+                <div class="nav-link-toggle">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </a>
+            <ul class="sub-menu">
+                <li><a href="products-list.php">Sản phẩm 01</a></li>
+                <li><a href="products-list.php">Sản phẩm 02</a></li>
+                <li><a href="products-list.php">Sản phẩm 03</a></li>
+                <li><a href="products-list.php">Sản phẩm 04</a></li>
+                <li><a href="products-list.php">Sản phẩm 05</a></li>
+                <li><a href="products-list.php">Sản phẩm 06</a></li>
+                <li><a href="products-list.php">Sản phẩm 07</a></li>
+                <li><a href="products-list.php">Sản phẩm 08</a></li>
+                <li><a href="products-list.php">Sản phẩm 09</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jobs.php">Món ngon</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jobs.php">Khám phá gia vị</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.php">Tin tức</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.php">Liên hệ</a>
+        </li>
+        <form class="box-search-mobile">
+            <div class="box-search-default">
+                <input class="search-input" placeholder="Nhập nội dung tìm kiếm">
+                <button class="search-btn me-2" type="submit">
+                        <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+    </ul>
+</div>
+    <main>
+    <section class="section section-block-md banner-heading">
+    <div class="section-inner">
+        <div class="heading-banner">
+            <a class="box-img-heading" href="">
+                <img src="./assets/images/data/banner-heading.jpg" alt="">
+            </a>
+        </div>
+        <div class="heading-breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb" class="breadcrumb-normal">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Về DH Foood</a></li>
+                        <li class="breadcrumb-item"><a href="#">Lời hứa của chúng tôi</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Hứa rồi lại quên</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="section section-block contact">
+            <div class="container">
+                <div class="section-heading text-center mb-4">
+                    <h2 class="heading-title f-50 color-primary">
+                        Liên hệ
+                    </h2>
+                    <span class="divider mt-3 mb-4 mx-auto"></span>
+                </div>
+                <div class="section-inner">
+                    <div class="row mb-45">
+                        <div class="col-lg-6">
+                            <div class="col-inner flex-space-30 flex-box-2i d-flex flex-wrap text-item-inverse">
+                                <div class="grid-item">
+                                    <h4 class="footer-title">
+                                        BP. Sản Xuất &amp; Thu Mua:
+                                    </h4>
+                                    <ul class="infomations-list">
+                                        <li>
+                                            Ms. Kim Xoạn - COO
+                                        </li>
+                                        <li>
+                                            Email: <a href="mailto:xoanbk@dhfoods.com.vn">xoanbk@dhfoods.com.vn</a>
+                                        </li>
+                                        <li>
+                                            SĐT/Telegram: <a href="mailto:xoanbk@dhfoods.com.vn">+(84) 947 442 788</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="grid-item">
+                                    <h4 class="footer-title">
+                                        BP. Sản Xuất &amp; Thu Mua:
+                                    </h4>
+                                    <ul class="infomations-list">
+                                        <li>
+                                            Ms. Kim Xoạn - COO
+                                        </li>
+                                        <li>
+                                            Email: <a href="mailto:xoanbk@dhfoods.com.vn">xoanbk@dhfoods.com.vn</a>
+                                        </li>
+                                        <li>
+                                            SĐT/Telegram: <a href="mailto:xoanbk@dhfoods.com.vn">+(84) 947 442 788</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-title f-40 f-w-700 color-primary mb-45">
+                        CÔNG TY CỔ PHẦN DH FOODS
+                    </div>
+                    <div class="row mb-45">
+                        <div class="col-lg-9">
+                            <div class="box-contact-info">
+                                <div class="contact-info">
+                                    <div class="info-thumb hidden-md">
+                                        <img src="./assets/images/data/qr.png" alt="">
+                                    </div>
+                                    <div class="info-text">
+                                        <ul class="text-list">
+                                            <li>
+                                                <i class="fa fa-home"></i>
+                                                <span>Lầu 9, 728-730 Võ Văn Kiệt, Phường 01, Quận 5, Thành phố Hồ Chí Minh</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-phone"></i>
+                                                <span>
+                                                    Điện thoại: BP.Kinh Doanh: 028 3922 5942 (43) - BP.Cung ứng: 028 3922 5940 - BP.Kế Toán: 028 3922 5941
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-envelope-o"></i>
+                                                <span>Email: huyenvtt@dhfoods.com.vn hoặc xoanbk@dhfoods.com.vn</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-globe"></i>
+                                                <span>Website: www.dhfoods.com.vn</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-file"></i>
+                                                <span>
+                                                    MST: 0312015058
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="btn btn-effect f-w-700 no-resize mt-3 js-scroll-target" data-target="#contact-map" href="#">
+                               Xem Bản Đồ
+                                     <i class="fa fa-map-marker ms-1"></i>
+                             </a>
+                        </div>
+                    </div>
+                    <div class="contact-excerpt mb-3">
+                        <p>Xin kính chào quý khách! Cảm ơn Quý Khách đã quan tâm tới <span>Dh Foods</span>.</p>
+                        <p>Nếu quý khách có thắc mắc, ý kiến phản hồi hay đóng góp xin vui lòng điền vào Form dưới đây và gửi cho chúng tôi. Xin chân thành cảm ơn!</p>
+                    </div>
+                    <form action="" class="contact-form mb-45" id="form-contact">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-group input-group-normal mb-3">
+                                    <label for="full-name">Họ tên <span>(*)</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa fa-user"></i>
+                                        <input type="text" id="full-name" />
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group input-group-normal mb-3">
+                                    <label for="title">Tiêu đề <span>(*)</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa fa-home"></i>
+                                        <input type="text" id="title" />
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group input-group-normal mb-3 has-error">
+                                            <label for="email">Email <span>(*)</span></label>
+                                            <div class="input-wrap">
+                                                <i class="fa fa-envelope"></i>
+                                                <input type="text" id="email" />
+                                            </div>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group input-group-normal mb-3">
+                                            <label for="phone">Điện thoại <span>(*)</span></label>
+                                            <div class="input-wrap">
+                                                <i class="fa fa-phone"></i>
+                                                <input type="text" id="phone" />
+                                            </div>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group input-group-normal mb-3 has-error">
+                                    <label for="content">Nội dung <span>(*)</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa fa-edit"></i>
+                                        <textarea name="" id="content" rows="5"></textarea>
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-group input-group-normal mb-3">
+                                    <label for="address">Địa chỉ <span>(*)</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa fa-home"></i>
+                                        <input type="text" id="address" />
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-end flex-wrap">
+                                <div class="input-wrap d-flex align-items-end mb-3 w-50">
+                                    <div class="input-group input-group-normal">
+                                        <label for="security-code">Mã bảo vệ <span>(*)</span></label>
+                                        <div class="input-wrap">
+                                            <i class="fa fa-shield"></i>
+                                            <input type="text" id="security-code" />
+                                        </div>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="box-img-security">
+                                        <img src="./assets/images/data/sec_image.gif" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="btn-group ms-auto mb-3">
+                                    <button type="submit" class="btn btn-primary f-w-700 no-resize">
+                                       GỬI
+                                      </button>
+                                    <button class="btn btn-primary f-w-700 no-resize js-reset-input" data-target-form="#form-contact">
+                                        NHẬP LẠI
+                                       </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="map-contact" id="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62820.778942057674!2d106.34053191777754!3d10.237477043813767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310aa8f5e2e8bd09%3A0x9d5fd18ce4fa56bb!2zVHAuIELhur9uIFRyZSwgQuG6v24gVHJlLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1629771450603!5m2!1svi!2s"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a href="" class="back-top js-back-top active">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </main>
+    <footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row flex-space-30-0">
+                    <div class="col-lg-6">
+                        <h3 class="footer-heading">
+                            Thông tin liên hệ
+                        </h3>
+                        <div class="col-inner flex-space-30 flex-box-2i d-flex flex-wrap">
+                            <div class="grid-item">
+                                <h4 class="footer-title">
+                                    BP. Sản Xuất & Thu Mua:
+                                </h4>
+                                <ul class="infomations-list">
+                                    <li>
+                                        Ms. Kim Xoạn - COO
+                                    </li>
+                                    <li>
+                                        Email: <a href="mailto:xoanbk@dhfoods.com.vn">xoanbk@dhfoods.com.vn</a>
+                                    </li>
+                                    <li>
+                                        SĐT/Telegram: <a href="mailto:xoanbk@dhfoods.com.vn">+(84) 947 442 788</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="grid-item">
+                                <h4 class="footer-title">
+                                    BP. Sản Xuất & Thu Mua:
+                                </h4>
+                                <ul class="infomations-list">
+                                    <li>
+                                        Ms. Kim Xoạn - COO
+                                    </li>
+                                    <li>
+                                        Email: <a href="mailto:xoanbk@dhfoods.com.vn">xoanbk@dhfoods.com.vn</a>
+                                    </li>
+                                    <li>
+                                        SĐT/Telegram: <a href="mailto:xoanbk@dhfoods.com.vn">+(84) 947 442 788</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="footer-heading">
+                            Liên kết với Dh Foods
+                        </h3>
+                        <div class="col-inner text-center">
+                            <ul class="list-socials flex-space-0-40 hover-item-translate">
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-google"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <div>Copyright © 2018 <strong>Dh Foods</strong></div>
+                    <div class="ms-2 me-2 hidden-360">-</div>
+                    <div>
+                        Thiết kế web
+                        <strong>
+                        <a href="#" target="_blank">TRUST.vn</a> 
+                    </strong>
+                    </div>
+                </div>
+                <ul class="box-statistics">
+                    <li>
+                        <i class="fa fa-bar-chart me-2"></i>
+                    </li>
+                    <li>Lượt truy cập: <b>2789850</b></li>
+                    <li class="me-2 ms-2">-</li>
+                    <li>Online: <b id="stats_online">79</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tools-mobile show-sm">
+            <ul class="tools-list">
+                <li>
+                    <a href="tel:900">
+                        <i class="fa fa-phone"></i> Hotline
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.php">
+                        <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                </li>
+            </ul>
+        </div>
+</footer>
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

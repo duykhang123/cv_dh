@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./assets/css/all-style.css">
+    <title>FD</title>
+</head>
+
+<body>
+<header class="header" id="header">
+    <div class="header-inner">
+        <div class="header-top hidden-md">
+            <div class="container">
+                <ul class="languages-list">
+                    <li>
+                        <a class="language-active" href="">
+                            <img src="./assets/images/icon-vn.svg" alt="">
+                            <span>Tiếng Việt</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-eng.svg" alt="">
+                            <span>English</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-jp.svg" alt="">
+                            <span>日本語</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-kr.svg" alt="">
+                            <span>한국어</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/images/icon-de.svg" alt="">
+                            <span>Deutsch</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-lg hidden-md">
+                <div class="container">
+                    <a class="navbar-brand logo-header" href="index.php">
+                        <img src="./assets/images/Logo_Dh_Foods.png" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-nav-main ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.php">Trang chủ</a>
+                            </li>
+                            <li class="nav-item has-children">
+                                <a class="nav-link" href="about.php">Về DH Food</a>
+                                <ul class="sub-menu">
+                                    <li><a href="introduce.php">Câu Chuyện Thương Hiệu</a></li>
+                                    <li><a href="promise.php">Lời hứa của chúng tôi</a></li>
+                                    <li><a href="purchase.php">Tôi Muốn Mua Hàng</a></li>
+                                    <li><a href="jobs.php">Tuyển Dụng</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item has-children">
+                                <a class="nav-link" href="products.php">Sản phẩm</a>
+                                <ul class="sub-menu">
+                                    <li><a href="products-list.php">Sản phẩm 01</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 02</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 03</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 04</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 05</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 06</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 07</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 08</a></li>
+                                    <li><a href="products-list.php">Sản phẩm 09</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jobs.php" aria-disabled="true">Món Ngon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jobs.php" aria-disabled="true">Khám phá gia vị</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.php" aria-disabled="true">Tin tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.php" aria-disabled="true">Liên Hệ</a>
+                            </li>
+                            <form class="form-search-header">
+                                <div class="dropdown dropdown-search">
+                                    <button id="dropdownSearch" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-search"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownSearch">
+                                        <div class="box-search-normal">
+                                            <input class="search-input" placeholder="Nhập nội dung tìm kiếm">
+                                            <button class="search-btn me-2" type="submit">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-mobile show-md">
+                <div class="container">
+                    <a class="navbar-brand logo-header" href="#">
+                        <img src="./assets/images/Logo_Dh_Foods.png" alt="">
+                    </a>
+                    <ul class="languages-list ms-auto">
+                        <li>
+                            <a class="language-active" href="">
+                                <img src="./assets/images/icon-vn.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-eng.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-jp.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-kr.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icon-de.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler navbar-toggler-main" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                    <span class="navbar-toggler-icon"></span>
+                    Menu
+                </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="offcanvas offcanvas-end offcanvas-menu show-md" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+    <button class="offcanvas-close btn-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="fa fa-times"></i>
+    </button>
+    <ul class="navbar-nav navbar-nav-mobile js-nav-accordion">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Trang chủ</a>
+        </li>
+        <li class="nav-item nav-has-children">
+            <a class="nav-link" href="about.php">Về Dh Foods
+                <div class="nav-link-toggle">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </a>
+
+            <ul class="sub-menu">
+                <li><a href="introduce.php">Câu Chuyện Thương Hiệu</a></li>
+                <li><a href="promise.php">Lời hứa của chúng tôi</a></li>
+                <li><a href="purchase.php">Tôi Muốn Mua Hàng</a></li>
+                <li><a href="jobs.php">Tuyển Dụng</a></li>
+            </ul>
+        </li>
+        <li class="nav-item nav-has-children">
+            <a class="nav-link" href="products.php">Sản phẩm
+                <div class="nav-link-toggle">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </a>
+            <ul class="sub-menu">
+                <li><a href="products-list.php">Sản phẩm 01</a></li>
+                <li><a href="products-list.php">Sản phẩm 02</a></li>
+                <li><a href="products-list.php">Sản phẩm 03</a></li>
+                <li><a href="products-list.php">Sản phẩm 04</a></li>
+                <li><a href="products-list.php">Sản phẩm 05</a></li>
+                <li><a href="products-list.php">Sản phẩm 06</a></li>
+                <li><a href="products-list.php">Sản phẩm 07</a></li>
+                <li><a href="products-list.php">Sản phẩm 08</a></li>
+                <li><a href="products-list.php">Sản phẩm 09</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jobs.php">Món ngon</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jobs.php">Khám phá gia vị</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.php">Tin tức</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.php">Liên hệ</a>
+        </li>
+        <form class="box-search-mobile">
+            <div class="box-search-default">
+                <input class="search-input" placeholder="Nhập nội dung tìm kiếm">
+                <button class="search-btn me-2" type="submit">
+                        <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+    </ul>
+</div>
+    <main>
+    <section class="section section-block-md banner-heading">
+    <div class="section-inner">
+        <div class="heading-banner">
+            <a class="box-img-heading" href="">
+                <img src="./assets/images/data/banner-heading.jpg" alt="">
+            </a>
+        </div>
+        <div class="heading-breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb" class="breadcrumb-normal">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Về DH Foood</a></li>
+                        <li class="breadcrumb-item"><a href="#">Lời hứa của chúng tôi</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Hứa rồi lại quên</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="section section-block purchase-content">
+            <div class="section-heading text-center mb-4 mb-lg-5">
+                <h2 class="heading-title f-52 color-primary text-capitalize">
+                    Tôi muốn mua hàng
+                </h2>
+            </div>
+            <div class="section-inner">
+                <div class="container">
+                    <form class="box-filter" action="">
+                        <div class="row flex-space-30-0">
+                            <div class="col-lg-3">
+                                <select class="form-select select-normal">
+                                            <option value="">Dòng sản phẩm</option>
+                                            <option value="11">NATURAL Muối Chấm</option>
+                                            <option value="18">NATURAL Rau Củ Chua Ngọt &amp; Rau Củ Ngâm Giấm</option>
+                                            <option value="16">NATURAL Tôm Chua</option>
+                                            <option value="5">NATURAL Gia Vị Tự Nhiên</option>
+                                            <option value="9">NATURAL Gia Vị Nấu Và Ướp</option>
+                                            <option value="17">NATURAL Mắm Đặc Sản Phú Quốc</option>
+                                            <option value="19">NATURAL Nước Mắm Phú Quốc</option>
+                                            <option value="4">Sốt Chấm</option>
+                                            <option value="3">Muối Chấm Tây Ninh</option>
+                                        </select>
+                            </div>
+                            <div class="col-lg-3">
+                                <select class="form-select select-normal">
+                                        <option value="">Sản phẩm</option>
+                                        <option value="104" selected="">NATURAL Kiệu Chua Ngọt</option>
+                                        <option value="105">NATURAL Củ Hủ Dừa Chua Ngọt</option>
+                                        <option value="107">NATURAL Ngó Sen Chua Ngọt</option>
+                                        <option value="110">NATURAL Nấm Đùi Gà Ngâm Giấm</option>
+                                        <option value="109">NATURAL Ngồng Tỏi Ngâm Giấm</option>
+                                        <option value="111">NATURAL Cà Pháo Ngâm Giấm</option>
+                                        <option value="113">NATURAL Ớt Chỉ Thiên Ngâm Giấm</option>
+                                        <option value="114">NATURAL Ớt Xiêm Xanh Ngâm Giấm</option>
+                                        <option value="115">NATURAL Hành Ngâm Giấm</option>
+                                        <option value="116">NATURAL Tỏi Ngâm Giấm</option>
+                                    </select>
+                            </div>
+                            <div class="col-lg-2">
+                                <select class="form-select select-normal">
+                                        <option value="">Tỉnh/Thành</option>
+                                        <option value="1">Hà Nội</option>
+                                        <option value="2">TP. Hồ Chí Minh</option>
+                                        <option value="3">Hải Phòng</option>
+                                        <option value="4">Đà Nẵng</option>
+                                        <option value="5">Cần Thơ</option>
+                                        <option value="51">Bình Dương</option>
+                                        <option value="56">Đồng Nai</option>
+                                        <option value="60">Bà Rịa - Vũng Tàu</option>
+                                        <option value="40">Thừa Thiên - Huế</option>
+                                        <option value="10">Hà Giang</option>
+                                        <option value="16">Điện Biên</option>
+                                        <option value="17">Lạng Sơn</option>
+                                        <option value="18">Thái Nguyên</option>
+                                        <option value="19">Bắc Kạn</option>
+                                        <option value="7">Lai Châu</option>
+                                        <option value="20">Yên Bái</option>
+                                        <option value="6">Cao Bằng</option>
+                                        <option value="21">Sơn La</option>
+                                        <option value="22">Phú Thọ</option>
+                                        <option value="23">Vĩnh Phúc</option>
+                                        <option value="24">Quảng Ninh</option>
+                                        <option value="25">Bắc Ninh</option>
+                                        <option value="26">Bắc Giang</option>
+                                        <option value="28">Hòa Bình</option>
+                                        <option value="29">Hải Dương</option>
+                                        <option value="30">Hưng Yên</option>
+                                        <option value="31">Hà Nam</option>
+                                        <option value="32">Nam Định</option>
+                                        <option value="33">Thái Bình</option>
+                                        <option value="8">Lào Cai</option>
+                                        <option value="34">Thanh Hóa</option>
+                                        <option value="35">Ninh Bình</option>
+                                        <option value="9">Tuyên Quang</option>
+                                        <option value="36">Nghệ An</option>
+                                        <option value="37">Hà Tĩnh</option>
+                                        <option value="38">Quảng Bình</option>
+                                        <option value="39">Quảng Trị</option>
+                                        <option value="41">Quảng Nam</option>
+                                        <option value="42">Quảng Ngãi</option>
+                                        <option value="43">Kon Tum</option>
+                                        <option value="44">Bình Định</option>
+                                        <option value="45">Gia Lai</option>
+                                        <option value="46">Phú Yên</option>
+                                        <option value="47">Đắk Lắk</option>
+                                        <option value="48">Đắk Nông</option>
+                                        <option value="49">Khánh Hòa</option>
+                                        <option value="50">Lâm Đồng</option>
+                                        <option value="52">Bình Phước</option>
+                                        <option value="53">Ninh Thuận</option>
+                                        <option value="54">Tây Ninh</option>
+                                        <option value="55">Bình Thuận</option>
+                                        <option value="57">Long An</option>
+                                        <option value="58">Đồng Tháp</option>
+                                        <option value="59">An Giang</option>
+                                        <option value="61">Tiền Giang</option>
+                                        <option value="62">Kiên Giang</option>
+                                        <option value="63">Bến Tre</option>
+                                        <option value="64">Vĩnh Long</option>
+                                        <option value="65">Trà Vinh</option>
+                                        <option value="66">Sóc Trăng</option>
+                                        <option value="67">Hậu Giang</option>
+                                        <option value="68">Bạc Liêu</option>
+                                        <option value="69">Cà Mau</option>
+                                    </select>
+                            </div>
+                            <div class="col-lg-2">
+                                <select class="form-select select-normal">
+                                        <option value="0">Chọn quận huyện</option>
+                                        <option value="159">Ba Tri</option>
+                                        <option value="160">Bình Đại</option>
+                                        <option value="161">Châu Thành</option>
+                                        <option value="162">Chợ Lách</option>
+                                        <option value="163">Giồng Trôm</option>
+                                        <option value="164">Mỏ Cày Bắc</option>
+                                        <option value="165">Mỏ Cày Nam</option>
+                                        <option value="166">Thạnh Phú</option>
+                                        <option value="167">TP. Bến Tre</option>
+                                    </select>
+                            </div>
+                            <div class="col-lg-2">
+                                <a class="btn btn-effect f-w-700 md-btn" href="#">
+                                        TÌM KIẾM
+                                        <i class="fa fa-angle-right ms-1"></i>
+                                     </a>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="box-result mt-5">
+                        <div class="row flex-space-30-0">
+                            <div class="col-md-7">
+                                <div class="card card-normal card-height">
+                                    <div class="card-header">
+                                        <h5 class="card-title f-26 color-primary text-uppercase text-center mb-0">
+                                            Hệ Thống phân phối
+                                        </h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul class="results-list scrollbar-md">
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                            <li>
+                                                <h6>VinMart Đồng Khởi</h6>
+                                                <p>72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card card-normal card-height">
+                                    <div class="card-header">
+                                        <h5 class="card-title f-26 color-primary text-uppercase text-center mb-0">
+                                            Thương mại điện tử
+                                        </h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul class="results-list scrollbar-md results-items-center">
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-tiki.png" alt="">
+                                                </div>
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <div class="partner-img">
+                                                    <img src="./assets/images/logo-lazada.png" alt="">
+                                                </div>
+
+                                                <a href="">
+                                                        https://tiki.vn/natural-kieu-chua-ngot-220g-dh-foods-p76309622.html?spid=76309623
+                                                    </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <a href="" class="back-top js-back-top active">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </main>
+    <footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row flex-space-30-0">
+                    <div class="col-lg-6">
+                        <h3 class="footer-heading">
+                            Thông tin liên hệ
+                        </h3>
+                        <div class="col-inner flex-space-30 flex-box-2i d-flex flex-wrap">
+                            <div class="grid-item">
+                                <h4 class="footer-title">
+                                    BP. Sản Xuất & Thu Mua:
+                                </h4>
+                                <ul class="infomations-list">
+                                    <li>
+                                        Ms. Kim Xoạn - COO
+                                    </li>
+                                    <li>
+                                        Email: <a href="mailto:xoanbk@dhfoods.com.vn">xoanbk@dhfoods.com.vn</a>
+                                    </li>
+                                    <li>
+                                        SĐT/Telegram: <a href="mailto:xoanbk@dhfoods.com.vn">+(84) 947 442 788</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="grid-item">
+                                <h4 class="footer-title">
+                                    BP. Sản Xuất & Thu Mua:
+                                </h4>
+                                <ul class="infomations-list">
+                                    <li>
+                                        Ms. Kim Xoạn - COO
+                                    </li>
+                                    <li>
+                                        Email: <a href="mailto:xoanbk@dhfoods.com.vn">xoanbk@dhfoods.com.vn</a>
+                                    </li>
+                                    <li>
+                                        SĐT/Telegram: <a href="mailto:xoanbk@dhfoods.com.vn">+(84) 947 442 788</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="footer-heading">
+                            Liên kết với Dh Foods
+                        </h3>
+                        <div class="col-inner text-center">
+                            <ul class="list-socials flex-space-0-40 hover-item-translate">
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-google"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <div>Copyright © 2018 <strong>Dh Foods</strong></div>
+                    <div class="ms-2 me-2 hidden-360">-</div>
+                    <div>
+                        Thiết kế web
+                        <strong>
+                        <a href="#" target="_blank">TRUST.vn</a> 
+                    </strong>
+                    </div>
+                </div>
+                <ul class="box-statistics">
+                    <li>
+                        <i class="fa fa-bar-chart me-2"></i>
+                    </li>
+                    <li>Lượt truy cập: <b>2789850</b></li>
+                    <li class="me-2 ms-2">-</li>
+                    <li>Online: <b id="stats_online">79</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tools-mobile show-sm">
+            <ul class="tools-list">
+                <li>
+                    <a href="tel:900">
+                        <i class="fa fa-phone"></i> Hotline
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.php">
+                        <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                </li>
+            </ul>
+        </div>
+</footer>
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
